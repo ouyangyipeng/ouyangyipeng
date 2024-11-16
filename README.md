@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @ouyangyipeng, a college student @SYSU, from @ArcSysu Lab.
+- 👀 I’m interested in AI for Compiler, Embodied Intelligence
+- 🌱 I’m currently learning Source2Source Compiling(Translation)
+- 💞️ I’m looking to collaborate on C2Rust Translation work(based on LLM) and VLNCE
+- 📫 How to reach me : ouyyp5@mail2.sysu.edu.cn
+- 😄 Website: [ouyangyipeng.github.io](ouyangyipeng.github.io)
+- ⚡ Hobbies: Calligraphy, Badminton
