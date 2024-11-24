@@ -2,7 +2,6 @@
   [![](https://img.shields.io/badge/-@ouyangyipeng-%23181717?style=flat-square&logo=github)](https://github.com/ouyangyipeng)
   [![](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=OYYP&url=https%3A%2F%2Fouyangyipeng.github.io)](https://ouyangyipeng.github.io)
 
-![OYYP's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=5&order_by=stars&&theme=synthwave)
   
 💡 𝑷𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒂𝒃𝒐𝒖𝒕 𝒃𝒓𝒊𝒏𝒈𝒊𝒏𝒈 𝒊𝒅𝒆𝒂𝒔 𝒕𝒐 𝒍𝒊𝒇𝒆. 𝑬𝒙𝒑𝒍𝒐𝒓𝒆 𝒂𝒍𝒍 𝒐𝒇 𝒎𝒚 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔.
 
@@ -20,10 +19,10 @@
 
 ## 📈 my github stats
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true" alt="ouyangyipeng" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&width=600" alt="ouyangyipeng" />
 
 <div align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=5&order_by=stars&&theme=synthwave" alt="OYYP's GitHub Repository Contribution stats" />
+  <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="OYYP's GitHub Repository Contribution stats" />
   
   [![GitHub Streak](https://streak-stats.demolab.com?user=ouyangyipeng&theme=vue-dark)](https://git.io/streak-stats)
 </div>
@@ -48,17 +47,22 @@
 
 **Currently working with:**
 
-<a href="https://www.python.org/" title="Python"><img src="icons/python.png" /></a>
-<a href="https://git-scm.com/" title="Git"><img src="icons/git.png" /></a>
-<a href="https://www.docker.com/" title="Docker"><img src="icons/docker.png" /></a>
-<a href="https://github.com/" title="GitHub"><img src="icons/github.png" /></a>
-<a href="https://gitlab.com/" title="GitLab"><img src="icons/gitlab.png" /></a>
-<a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="icons/vscode.png" /></a>
+<a href="https://www.python.org/" title="Python"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg" /></a>
+<a href="https://git-scm.com/" title="Git"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/git.svg" /></a>
+<a href="https://www.docker.com/" title="Docker"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/docker.svg" /></a>
+<a href="https://github.com/" title="GitHub"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" /></a>
+<a href="https://gitlab.com/" title="GitLab"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/gitlab.svg" /></a>
+<a href="https://cplusplus.com/" title="C"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/c.svg" /></a>
+<a href="https://cplusplus.com/" title="C++"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cplusplus.svg" /></a>
+<a href="https://chatgpt.com/" title="GitLab"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg" /></a>
+<a href="https://www.adobe.com/" title="Adobe"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/adobe.svg" /></a>
 
 **Learning:**
 
-<a href="https://www.rust-lang.org/" title="Rust"><img src="icons/rust.png" /></a>
-<a href="https://docs.microsoft.com/en-us/dotnet/visual-basic/" title="Visual Basic"><img src="icons/vbnet.png" /></a>
+<a href="https://www.rust-lang.org/" title="Rust"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/rust.svg" /></a>
+<a href="https://www.pytorch.org/" title="Pytorch"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/pytorch.svg" /></a>
+<a href="https://developer.nvidia.cn/cuda-zone/" title="Cuda"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nvidia.svg" /></a>
+<a href="https://scp-wiki.wikidot.com/" title="SCP"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/scpfoundation.svg" /></a>
 
 
 You are No.![Visitor Count](https://profile-counter.glitch.me/ouyangyipeng/count.svg) to visit me!
