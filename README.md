@@ -22,6 +22,13 @@
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true" alt="ouyangyipeng" />
 
+<div align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=5&order_by=stars&&theme=synthwave" alt="OYYP's GitHub Repository Contribution stats" />
+  
+  [![GitHub Streak](https://streak-stats.demolab.com?user=ouyangyipeng&theme=vue-dark)](https://git.io/streak-stats)
+</div>
+
+
 ## 𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗼𝗻
 
 [![Xiaoyuan Kousuan](https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/XiaoyuanKousuan&mode=dark&style=horizontal)](https://github.com/ouyangyipeng/XiaoyuanKousuan)
