@@ -15,3 +15,7 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 📈 my github stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=ouyangyipeng&show_icons=true&theme=gotham" alt="ouyangyipeng" />
+
+[![Auth UI Vue](https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/XiaoyuanKousuan)](https://github.com/ouyangyipeng/XiaoyuanKousuan) [![vue-command-palette](https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/Yat-Search-Engine)](https://github.com/ouyangyipeng/Yat-Search-Engine)
+
+[![vue-sonner](https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/Thinking-GPT4o&mode=light&style=horizontal)](https://github.com/ouyangyipeng/Thinking-GPT4o)
