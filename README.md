@@ -22,11 +22,10 @@
 - 👀 I’m interested in AI for Compiler, Embodied Intelligence
 - 🌱 I’m currently learning Source2Source Compiling(Translation)
 - 💞️ I’m looking to collaborate on C2Rust Translation work(based on LLM) and VLNCE
-- 📫 How to reach me : ouyyp5@mail2.sysu.edu.cn
-- 😄 Website: [ouyangyipeng.github.io](ouyangyipeng.github.io)
+- 📫 How to reach me : [ouyyp5@mail2.sysu.edu.cn](mailto:owenweiyuan@gmail.com)
+- 😄 Website: [ouyangyipeng.github.io](https://ouyangyipeng.github.io)
 - ⚡ Hobbies: Calligraphy, Badminton
-- for freelance work? do reach, [email](mailto:owenweiyuan@gmail.com) :)
-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
+- ☕ If you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 <p align="center">
   <a href="https://buymeacoffee.com/fernandezowen" target="_blank">
@@ -111,7 +110,17 @@
 <a href="https://developer.nvidia.cn/cuda-zone/" title="Cuda"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nvidia.svg" /></a>
 <a href="https://scp-wiki.wikidot.com/" title="SCP"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/scpfoundation.svg" /></a>
 
-**Some other**
+<div align="center">
+  <p>
+    <img src="https://jojoee.jojoee.com/api/utcnowgif?utcnow" alt="Current UTC time">
+  </p>
+  <p>
+    You are No. 
+    <img src="https://profile-counter.glitch.me/ouyangyipeng/count.svg" alt="Visitor Count"> to visit me!
+  </p>
+</div>
+
+**Some other tools used**
 
 ![Huawei](https://img.shields.io/badge/Huawei-%23FF0000.svg?style=for-the-badge&logo=huawei&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
@@ -205,16 +214,3 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
-
-
-
-
-<div align="center">
-  <p>
-    <img src="https://jojoee.jojoee.com/api/utcnowgif?utcnow" alt="Current UTC time">
-  </p>
-  <p>
-    You are No. 
-    <img src="https://profile-counter.glitch.me/ouyangyipeng/count.svg" alt="Visitor Count"> to visit me!
-  </p>
-</div>
