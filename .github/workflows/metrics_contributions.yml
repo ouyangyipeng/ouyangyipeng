@@ -1,0 +1,30 @@
+name: Contributions Metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: contributions.svg
+          token: ${{ secrets.METRICS_TOKEN }} # 记得去设置 Secret！
+          
+          # 基础配置
+          user: ouyangyipeng
+          base: "" # 不显示基础卡片，只显示贡献
+          
+          # 插件：Notable (贡献过的项目)
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_types: commit, pull_request, issue
+          
+          # 输出到独立分支 metrics-branch
+          output_action: gist # 或者是 commit，metrics 默认逻辑较复杂
+          # 简单点，我们直接让它提交到当前分支的 output 文件夹，或者用独立分支
+          # 为了最简单，我们使用 metrics 默认行为：它会尝试把图片 commit 到本分支
+          # 如果报错，请确保你有写入权限
