@@ -41,10 +41,16 @@
 
 <p align="center">
   <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&card_width=495" alt="GitHub Stats">
+    <img src="https://stats.programcx.cn/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&card_width=495" alt="GitHub Stats">
   </div>
   <div align="center">
-    <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img src="https://stats.programcx.cn/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
+    </a>
+  </div>
+  <div align="center">
+    <!-- <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions"> -->
+    <img src="https://stats.programcx.cn/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
   </div>
   <div align="center">
     <a href="https://git.io/streak-stats">
