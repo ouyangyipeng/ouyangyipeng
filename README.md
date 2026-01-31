@@ -49,16 +49,34 @@
   <div align="center">
     <img src="https://stats.programcx.cn/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&card_width=495" alt="GitHub Stats">
   </div>
-  <div align="center">
+  <!-- <div align="center">
     <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
-    <!-- <img src="https://stats.programcx.cn/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions"> -->
-  </div>
+    <img src="https://stats.programcx.cn/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
+  </div> -->
   <div align="center">
     <a href="https://git.io/streak-stats">
       <img src="https://streak-stats.demolab.com?user=ouyangyipeng&theme=vue-dark" alt="GitHub Streak">
     </a>
   </div>
 </p>
+
+<h2 align="center">📊 My Coding Analytics</h2>
+
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.isocalendar.svg" alt="IsoCalendar" width="100%">
+      </td>
+      <td align="center" width="50%">
+        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.habits.svg" alt="Habits" width="100%">
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.achievements.svg" alt="Achievements" width="100%">
+</div>
 
 
 ## > Currently Working On
