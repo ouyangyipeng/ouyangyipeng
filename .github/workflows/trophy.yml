@@ -2,8 +2,8 @@ name: GitHub Trophy Action
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天运行一次
-  workflow_dispatch: # 允许手动触发
+    - cron: "0 0 * * *" # 每天更新
+  workflow_dispatch: # 手动触发
 
 jobs:
   build:
@@ -11,17 +11,19 @@ jobs:
     name: Generate-GitHub-Profile-Trophy
     steps:
       - name: Checkout
-        uses: actions/checkout@v4 # 升级到 v4 更好
+        uses: actions/checkout@v4
       
       - name: Generate GitHub Profile Trophy
         uses: soulteary/github-profile-trophy-action@v1
         with:
-          # 关键修改：将所有参数合并到 'options' 中，格式类似 URL 参数
+          # 之前的配置都对，保留
           options: "username=ouyangyipeng&theme=onedark&column=5&margin-w=15&margin-h=15&no-frame=true&rank=-?,-C,-B"
-          path: "." 
+          # 【关键修改在这里】
+          # 必须指定文件名(trophy.svg)，不能只写点(.)
+          path: "trophy.svg" 
 
       - name: Deploy to GitHub Branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: trophy-branch
-          folder: .
+          folder: . # 这里部署整个目录，包含了刚刚生成的 trophy.svg
