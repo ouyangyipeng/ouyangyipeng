@@ -1,9 +1,42 @@
+# name: GitHub Trophy Action
+
+# on:
+#   schedule:
+#     - cron: "0 0 * * *" # 每天更新一次
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     name: Generate-GitHub-Profile-Trophy
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v3
+      
+#       - name: Generate GitHub Profile Trophy
+#         uses: soulteary/github-profile-trophy-action@v1
+#         with:
+#           username: ouyangyipeng
+#           theme: onedark
+#           column: 5
+#           margin-w: 15
+#           margin-h: 15
+#           no-frame: true
+#           rank: "-?,-C,-B"
+#           # 这些参数和你原本 URL 里的参数是一样的
+          
+#       - name: Deploy to GitHub Branch
+#         uses: JamesIves/github-pages-deploy-action@v4
+#         with:
+#           branch: trophy-branch # 图片会生成到这个独立分支，保持主分支干净
+#           folder: .
+
 name: GitHub Trophy Action
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 每天更新一次
-  workflow_dispatch:
+    - cron: "0 0 * * *" # 每天运行一次
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   build:
@@ -11,22 +44,17 @@ jobs:
     name: Generate-GitHub-Profile-Trophy
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # 升级到 v4 更好
       
       - name: Generate GitHub Profile Trophy
         uses: soulteary/github-profile-trophy-action@v1
         with:
-          username: ouyangyipeng
-          theme: onedark
-          column: 5
-          margin-w: 15
-          margin-h: 15
-          no-frame: true
-          rank: "-?,-C,-B"
-          # 这些参数和你原本 URL 里的参数是一样的
-          
+          # 关键修改：将所有参数合并到 'options' 中，格式类似 URL 参数
+          options: "username=ouyangyipeng&theme=onedark&column=5&margin-w=15&margin-h=15&no-frame=true&rank=-?,-C,-B"
+          path: "." 
+
       - name: Deploy to GitHub Branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: trophy-branch # 图片会生成到这个独立分支，保持主分支干净
+          branch: trophy-branch
           folder: .
