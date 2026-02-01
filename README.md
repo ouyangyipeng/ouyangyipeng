@@ -10,9 +10,15 @@
   </a>
 </div>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=ouyangyipeng&theme=onedark&column=5&margin-w=15&margin-h=15&no-frame=true&rank=-?,-C,-B" alt="GitHub Trophy">
+  </a>
+</p> -->
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://raw.githubusercontent.com/ouyangyipeng/ouyangyipeng/trophy-branch/trophy.svg" alt="GitHub Trophy">
   </a>
 </p>
 
@@ -43,21 +49,34 @@
   <div align="center">
     <img src="https://stats.programcx.cn/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&card_width=495" alt="GitHub Stats">
   </div>
-  <div align="center">
-    <a href="https://github.com/anuraghazra/github-readme-stats">
-      <img src="https://stats.programcx.cn/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
-    </a>
-  </div>
-  <div align="center">
-    <!-- <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions"> -->
+  <!-- <div align="center">
+    <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
     <img src="https://stats.programcx.cn/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
-  </div>
+  </div> -->
   <div align="center">
     <a href="https://git.io/streak-stats">
       <img src="https://streak-stats.demolab.com?user=ouyangyipeng&theme=vue-dark" alt="GitHub Streak">
     </a>
   </div>
 </p>
+
+<h2 align="center">📊 My Coding Analytics</h2>
+
+<div align="center">
+  <table style="border: none;">
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.isocalendar.svg" alt="IsoCalendar" width="100%">
+      </td>
+      <td align="center" width="50%">
+        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.habits.svg" alt="Habits" width="100%">
+      </td>
+    </tr>
+  </table>
+
+  <br>
+  <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.achievements.svg" alt="Achievements" width="100%">
+</div>
 
 
 ## > Currently Working On
@@ -95,9 +114,15 @@
   <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal">
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
+  </a>
+</div> -->
+
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://stats.programcx.cn/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
   </a>
 </div>
 
