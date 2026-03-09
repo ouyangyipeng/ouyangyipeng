@@ -85,8 +85,8 @@
   <a href="https://github.com/ouyangyipeng/XiaoyuanKousuan">
     <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/XiaoyuanKousuan&mode=dark&style=horizontal" alt="Xiaoyuan Kousuan">
   </a>
-  <a href="https://github.com/ouyangyipeng/Yat-Search-Engine">
-    <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/Yat-Search-Engine&mode=dark&style=horizontal" alt="Yat Search Engine">
+  <a href="https://github.com/ouyangyipeng/ClassAssistant">
+    <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/ClassAssistant&mode=dark&style=horizontal" alt="Class Fox">
   </a>
   <a href="https://github.com/ouyangyipeng/Thinking-GPT4o">
     <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/Thinking-GPT4o&mode=dark&style=horizontal" alt="Thinking-GPT4o">
