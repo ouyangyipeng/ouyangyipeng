@@ -29,12 +29,12 @@
 💡 𝑷𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒂𝒃𝒐𝒖𝒕 𝒃𝒓𝒊𝒏𝒈𝒊𝒏𝒈 𝒊𝒅𝒆𝒂𝒔 𝒕𝒐 𝒍𝒊𝒇𝒆. 𝑬𝒙𝒑𝒍𝒐𝒓𝒆 𝒂𝒍𝒍 𝒐𝒇 𝒎𝒚 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔.
 
 - 👋 I’m @ouyangyipeng, a college student @SYSU @NSCC-GZ, from @ArcSysu Lab.
-- 👀 I’m interested in AI for Compiler, Embodied Intelligence
+- 👀 I’m interested in Agent System and AI Infra.
 - 🌱 I’m currently learning Source2Source Compiling(Translation)
-- 💞️ I’m looking to collaborate on C2Rust Translation work(based on LLM) and VLNCE
+- 💞️ I’m looking to collaborate on **Nexa Language**, my proudest work.
 - 📫 How to reach me : [ouyyp5@mail2.sysu.edu.cn](mailto:owenweiyuan@gmail.com)
 - 😄 Website: [ouyangyipeng.github.io](https://ouyangyipeng.github.io)
-- ⚡ Hobbies: Calligraphy, Badminton
+- ⚡ Hobbies: Calligraphy, Badminton, Geography
 - ☕ If you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 <p align="center">
