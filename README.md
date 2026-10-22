@@ -1,158 +1,39 @@
-<h1 align="center">𝙃𝙚𝙡𝙡𝙤, 𝙄'𝙢 Fernandez Owen</h1>
-<h3 align="center">A passionate CS student from NSCC-GZ, China</h3>
+# Yipeng Ouyang · 欧阳易芃
 
-<div align="center">
-  <a href="https://github.com/ouyangyipeng">
-    <img src="https://img.shields.io/badge/-@ouyangyipeng-%23181717?style=flat-square&logo=github" alt="GitHub">
-  </a>
-  <a href="https://ouyangyipeng.github.io">
-    <img src="https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=OYYP&url=https%3A%2F%2Fouyangyipeng.github.io" alt="Website">
-  </a>
-</div>
+**Agentic System · AI Infrastructure**
 
-<!-- <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ouyangyipeng&theme=onedark&column=5&margin-w=15&margin-h=15&no-frame=true&rank=-?,-C,-B" alt="GitHub Trophy">
-  </a>
-</p> -->
+[Homepage](https://oyyp.nexa-lang.com/) · [Google Scholar](https://scholar.google.com/citations?user=eecO6kYAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0003-0544-4612) · [Email](mailto:ouyyp5@mail2.sysu.edu.cn)
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://raw.githubusercontent.com/ouyangyipeng/ouyangyipeng/trophy-branch/trophy.svg" alt="GitHub Trophy">
-  </a>
-</p>
+I build languages, compilers, and runtimes for agentic systems. My work focuses on reliable agent execution, skill compilation, runtime evaluation, and efficient inference on real hardware.
 
-<div align="center">
-    <img src="./超算logo.png">
-</div>
+- **Academia** — Academic M.S. in Computer Science and Technology, **Sun Yat-sen University · 2027 Entry**. Research with [Prof. Xianwei Zhang](https://xianweiz.github.io/) at [arcSYSu Lab](https://arcsysu.tech/), National Supercomputer Center in Guangzhou.
+- **Industry** — **AI Agent R&D Intern**, Band AI, ByteDance · Jul–Nov 2026.
+- **Open source** — Building [Nexa](https://github.com/Nexa-Language/Nexa) and its agent language, compiler, and runtime ecosystem.
 
-💡 𝑷𝒂𝒔𝒔𝒊𝒐𝒏𝒂𝒕𝒆 𝒂𝒃𝒐𝒖𝒕 𝒃𝒓𝒊𝒏𝒈𝒊𝒏𝒈 𝒊𝒅𝒆𝒂𝒔 𝒕𝒐 𝒍𝒊𝒇𝒆. 𝑬𝒙𝒑𝒍𝒐𝒓𝒆 𝒂𝒍𝒍 𝒐𝒇 𝒎𝒚 𝒑𝒓𝒐𝒋𝒆𝒄𝒕𝒔.
+## Selected work
 
-- 👋 I’m @ouyangyipeng, a college student @SYSU @NSCC-GZ, from @ArcSysu Lab.
-- 👀 I’m interested in Agent System and AI Infra.
-- 🌱 I’m currently learning Source2Source Compiling(Translation)
-- 💞️ I’m looking to collaborate on **Nexa Language**, my proudest work.
-- 📫 How to reach me : [ouyyp5@mail2.sysu.edu.cn](mailto:owenweiyuan@gmail.com)
-- 😄 Website: [ouyangyipeng.github.io](https://ouyangyipeng.github.io)
-- ⚡ Hobbies: Calligraphy, Badminton, Geography
-- ☕ If you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
+| Project | Focus |
+| :--- | :--- |
+| **[Nexa](https://github.com/Nexa-Language/Nexa)** | A harness-native language for agent workflows, with compiler checks, a Python runtime, and a Rust Agent Virtual Machine. [Docs](https://docs.nexa-lang.com/en/quickstart/) |
+| **[SLIM-ARC](https://github.com/Nexa-Language/SLIM-ARC)** | Memory-constrained MoE inference using OS virtual memory and sparse expert loading. **National First Prize**, 2026 Operating System Design Contest. |
+| **[ASCEND-OK](https://github.com/ouyangyipeng/ASCEND-OK)** | Evolutionary kernel optimization for Triton-Ascend, with compilation, correctness checks, and measurements on NPUs. **National Third Prize**, 2026 Compiler System Design Contest. |
+| **[ClassFox](https://github.com/ouyangyipeng/ClassAssistant)** | A local-first desktop classroom assistant for transcription, contextual Q&A, and Markdown notes. [Website](https://class.nexa-lang.com/) |
+| **[YatCC-AI](https://yatcc-ai.com/)** | Compiler teaching and LLM/HPC tools. Leading the AI Hub gateway and teaching documentation. |
 
-<p align="center">
-  <a href="https://buymeacoffee.com/fernandezowen" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150">
-  </a>
-</p>
+## Research
 
-## > My GitHub Stats 📈
+- **[SkCC](https://arxiv.org/abs/2605.03353)** — Portable skill compilation across agent frameworks. Accepted at **ACM CAIS 2026 — AgentSkills'26 Workshop**. [Project](https://skcc.nexa-lang.com/)
+- **[RAMP](https://arxiv.org/abs/2605.27492)** — Runtime assessment of agentic models in production systems. Submitted to **HPC Asia 2027**. [Project](https://ramp.nexa-lang.com/)
+- Also working on agent memory and context management, topology-aware skill routing, and GPU kernel fusion. More on my [homepage](https://oyyp.nexa-lang.com/#research).
 
-<p align="center">
-  <div align="center">
-    <img src="https://stats.programcx.cn/api?username=ouyangyipeng&show_icons=true&theme=cobalt&count_private=true&card_width=495" alt="GitHub Stats">
-  </div>
-  <!-- <div align="center">
-    <img src="https://github-contributor-stats.vercel.app/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
-    <img src="https://stats.programcx.cn/api?username=ouyangyipeng&hide_contributor_rank=false&combine_all_yearly_contributions=true&limit=4&order_by=stars&&theme=synthwave" alt="GitHub Contributions">
-  </div> -->
-  <div align="center">
-    <a href="https://git.io/streak-stats">
-      <img src="https://streak-stats.demolab.com?user=ouyangyipeng&theme=vue-dark" alt="GitHub Streak">
-    </a>
-  </div>
-</p>
+**Tools I work with:** Python · C/C++ · Rust · CUDA / Triton · LLVM · Linux
 
-<h2 align="center">📊 My Coding Analytics</h2>
+<details>
+<summary>GitHub activity</summary>
+<br>
+<img src="./metrics.isocalendar.svg" alt="Isometric contribution calendar for the past six months" width="600">
+</details>
 
-<div align="center">
-  <table style="border: none;">
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.isocalendar.svg" alt="IsoCalendar" width="100%">
-      </td>
-      <td align="center" width="50%">
-        <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.habits.svg" alt="Habits" width="100%">
-      </td>
-    </tr>
-  </table>
+---
 
-  <br>
-  <img src="https://github.com/ouyangyipeng/ouyangyipeng/blob/main/metrics.achievements.svg" alt="Achievements" width="100%">
-</div>
-
-
-## > Currently Working On
-
-<p align="center">
-  <a href="https://github.com/ouyangyipeng/XiaoyuanKousuan">
-    <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/XiaoyuanKousuan&mode=dark&style=horizontal" alt="Xiaoyuan Kousuan">
-  </a>
-  <a href="https://github.com/ouyangyipeng/ClassAssistant">
-    <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/ClassAssistant&mode=dark&style=horizontal" alt="Class Fox">
-  </a>
-  <a href="https://github.com/ouyangyipeng/Thinking-GPT4o">
-    <img src="https://svg.bookmark.style/api?url=https://github.com/ouyangyipeng/Thinking-GPT4o&mode=dark&style=horizontal" alt="Thinking-GPT4o">
-  </a>
-</p>
-
-## > My Tech Stack
-
-<div align="center">
-  <img src="https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff" alt="Git">
-  <img src="https://img.shields.io/badge/-GitLab-FCA121?style=flat-square&logo=gitlab" alt="GitLab">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu">
-  <img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook">
-  <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white" alt="Vim">
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
-  <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white" alt="Visual Studio">
-  <img src="https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white" alt="AssemblyScript">
-  <img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C">
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX">
-  <img src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown">
-  <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell">
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
-  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white" alt="Windows Terminal">
-</div>
-
-<!-- <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
-  </a>
-</div> -->
-
-<div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://stats.programcx.cn/api/top-langs/?username=ouyangyipeng&layout=compact&theme=cobalt" alt="Top Languages">
-  </a>
-</div>
-
-**Currently working with:**
-
-<a href="https://www.python.org/" title="Python"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg" /></a>
-<a href="https://git-scm.com/" title="Git"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/git.svg" /></a>
-<a href="https://www.docker.com/" title="Docker"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/docker.svg" /></a>
-<a href="https://github.com/" title="GitHub"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/github.svg" /></a>
-<a href="https://gitlab.com/" title="GitLab"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/gitlab.svg" /></a>
-<a href="https://cplusplus.com/" title="C"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/c.svg" /></a>
-<a href="https://cplusplus.com/" title="C++"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/cplusplus.svg" /></a>
-<a href="https://chatgpt.com/" title="GitLab"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg" /></a>
-<a href="https://www.adobe.com/" title="Adobe"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/adobe.svg" /></a>
-
-**Learning:**
-
-<a href="https://www.rust-lang.org/" title="Rust"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/rust.svg" /></a>
-<a href="https://www.pytorch.org/" title="Pytorch"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/pytorch.svg" /></a>
-<a href="https://developer.nvidia.cn/cuda-zone/" title="Cuda"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nvidia.svg" /></a>
-<a href="https://scp-wiki.wikidot.com/" title="SCP"><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/scpfoundation.svg" /></a>
-
-<div align="center">
-  <p>
-    <img src="https://jojoee.jojoee.com/api/utcnowgif?utcnow" alt="Current UTC time">
-  </p>
-  <p>
-    You are No. 
-    <img src="https://profile-counter.glitch.me/ouyangyipeng/count.svg" alt="Visitor Count"> to visit me!
-  </p>
-</div>
-
-
+Outside coding: calligraphy, badminton, and geography. [Support my work](https://buymeacoffee.com/fernandezowen).
