@@ -17,7 +17,9 @@ Both workflows share the same per-branch concurrency group so they cannot
 push conflicting visual updates at the same time.
 
 Generators use the built-in `GITHUB_TOKEN` to read public profile data and
-write images to this repository. The existing calendar uses `METRICS_TOKEN`.
+write images to this repository. The calendar and pixel renderer use the
+existing `METRICS_TOKEN` for user data: the Pixel renderer's stargazer
+connection query is unavailable to the repository integration token.
 No additional secret or permission scope is needed.
 
 ## Sources and adaptations

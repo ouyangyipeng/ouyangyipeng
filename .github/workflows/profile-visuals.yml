@@ -55,7 +55,7 @@ jobs:
       - name: Generate CRT and Fuji pixel cards
         run: node .generators/pixel/action/libs/index.js
         env:
-          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           INPUT_OUTPUTS: .build/visuals/pixel-fuji?username=ouyangyipeng&theme=fuji&pixelate_avatar=false
           INPUT_CRT_OUTPUTS: .build/visuals/pixel-crt?username=ouyangyipeng&include_all_commits=false
 
