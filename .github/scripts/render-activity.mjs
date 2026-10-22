@@ -23,13 +23,13 @@ export function renderActivity(days, mode) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title description">
   <title id="title">Contributions · past ${days.length} days (UTC)</title>
   <desc id="description">${total} contributions from ${days[0].date} to ${days.at(-1).date}.</desc>
-  <style>text{font-family:Segoe UI,Arial,sans-serif;font-size:12px;fill:${color}}.line{stroke-dasharray:5000;stroke-dashoffset:5000;animation:draw 4s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.line{animation:none;stroke-dashoffset:0}}</style>
+  <style>text{font-family:Segoe UI,Arial,sans-serif;font-size:12px;fill:${color}}.line{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 4s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}@media(prefers-reduced-motion:reduce){.line{animation:none;stroke-dashoffset:0}}</style>
   <rect width="1000" height="320" rx="8" fill="${dark ? '#0d1117' : '#ffffff'}"/>
   <text x="24" y="32" style="font-size:19px;font-weight:600;fill:${accent}">Contributions · past ${days.length} days (UTC)</text>
   <text x="24" y="53">${days[0].date} — ${days.at(-1).date} · ${total} contributions</text>
   ${grid}${labels}
   <path d="${line} L962,254 L66,254 Z" fill="${accent}" opacity=".10"/>
-  <path class="line" d="${line}" fill="none" stroke="${accent}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="line" pathLength="1" d="${line}" fill="none" stroke="${accent}" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
   ${points.map(position => `<circle cx="${position.split(',')[0]}" cy="${position.split(',')[1]}" r="2.5" fill="${accent}"/>`).join('')}
   </svg>`;
 }
