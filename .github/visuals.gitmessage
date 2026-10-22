@@ -1,0 +1,7 @@
+[chore] Refresh profile playground visuals
+
+Root cause: NA
+Solution: Update repository-hosted cards and contribution animations.
+Risks: Statistics follow each card's documented contribution scope.
+Dependency: GitHub API and pinned profile generators
+Links: https://github.com/ouyangyipeng/ouyangyipeng
