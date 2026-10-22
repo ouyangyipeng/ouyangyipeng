@@ -1,0 +1,17 @@
+{
+  "name": "yipeng-profile-visuals",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "test": "node --test .github/scripts/*.test.mjs",
+    "generate:extras": "node .github/scripts/generate-extras.mjs",
+    "generate:arcade": "node .github/scripts/generate-arcade.mjs",
+    "validate": "node .github/scripts/publish-visuals.mjs"
+  },
+  "dependencies": {
+    "@stats-organization/github-readme-stats-core": "2.2.0",
+    "pacman-contribution-graph": "5.3.1"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+.build/
+.generators/
+profile-3d-contrib/
+profile-summary-card-output/

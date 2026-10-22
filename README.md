@@ -1,8 +1,10 @@
 # Yipeng Ouyang · 欧阳易芃
 
-**Agentic System · AI Infrastructure**
+<img src="./profile/typing.svg" alt="Agentic System / AI Infrastructure — languages, compilers, and runtimes — building Nexa" width="640">
 
 [Homepage](https://oyyp.nexa-lang.com/) · [Google Scholar](https://scholar.google.com/citations?user=eecO6kYAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0003-0544-4612) · [Email](mailto:ouyyp5@mail2.sysu.edu.cn)
+
+<a href="https://github.com/LuciNyan/pixel-profile"><img src="./profile/pixel-crt.png" alt="My GitHub stats on a retro CRT monitor" width="640"></a>
 
 I build languages, compilers, and runtimes for agentic systems. My work focuses on reliable agent execution, skill compilation, runtime evaluation, and efficient inference on real hardware.
 
@@ -28,10 +30,115 @@ I build languages, compilers, and runtimes for agentic systems. My work focuses 
 
 **Tools I work with:** Python · C/C++ · Rust · CUDA / Triton · LLVM · Linux
 
-<details>
-<summary>GitHub activity</summary>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/skills-dark.svg">
+  <img src="./profile/skills-light.svg" alt="Python, C++, Rust, CUDA, Linux, and Git" width="360">
+</picture>
+
+## GitHub playground
+
+A few graphs, pixel scenes, and contribution games — just for fun.
+
+<details open>
+<summary><b>Stats, languages & working hours</b></summary>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg">
+  <img src="./profile/stats-light.svg" alt="GitHub stars, commits, pull requests, and issues" width="400">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg">
+  <img src="./profile/streak-light.svg" alt="Contribution streaks over the past year, using UTC dates" width="400">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/summary-dark.svg">
+  <img src="./profile/summary-light.svg" alt="All-time GitHub profile summary and contribution history" width="808">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/languages-dark.svg">
+  <img src="./profile/languages-light.svg" alt="Top languages by public repository count" width="266">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/commit-languages-dark.svg">
+  <img src="./profile/commit-languages-light.svg" alt="Top languages by commits" width="266">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/hours-dark.svg">
+  <img src="./profile/hours-light.svg" alt="Commit activity by hour, UTC+8" width="266">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/activity-dark.svg">
+  <img src="./profile/activity-light.svg" alt="Contribution activity over the past 31 days, UTC" width="808">
+</picture>
+
+<sub>Streaks cover the past year in UTC; the activity graph covers 31 days. The summary card includes all-time history. Working hours use UTC+8.</sub>
+</details>
+
+<details open>
+<summary><b>Contribution city & pixel scenes</b></summary>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/city.svg">
+  <img src="./profile/city-light.svg" alt="My contribution calendar as a 3D city" width="808">
+</picture>
+
+<img src="./profile/pixel-fuji.png" alt="My GitHub stats in a pixel-art Mount Fuji landscape" width="640">
+
 <br>
 <img src="./metrics.isocalendar.svg" alt="Isometric contribution calendar for the past six months" width="600">
+</details>
+
+<details open>
+<summary><b>Arcade — Breakout, Pac-Man, Galaga & Snake</b></summary>
+<br>
+
+**Breakout**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/breakout-dark.svg">
+  <img src="./profile/breakout-light.svg" alt="Breakout animation using my contribution calendar" width="808">
+</picture>
+
+**Pac-Man**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/pacman-dark.svg">
+  <img src="./profile/pacman-light.svg" alt="Pac-Man animation using my contribution calendar" width="808">
+</picture>
+
+**Galaga**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/galaga-dark.svg">
+  <img src="./profile/galaga-light.svg" alt="Space-shooter animation using my contribution calendar" width="808">
+</picture>
+
+**Snake**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
+  <img src="./profile/snake-light.svg" alt="Snake eating the squares of my contribution calendar" width="808">
+</picture>
+</details>
+
+<details open>
+<summary><b>A quote & a terrible programming joke</b></summary>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/quote-dark.svg">
+  <img src="./profile/quote-light.svg" alt="A programming quote" width="600">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/joke-dark.svg">
+  <img src="./profile/joke-light.svg" alt="A programming joke" width="500">
+</picture>
 </details>
 
 ---
