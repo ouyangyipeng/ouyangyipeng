@@ -32,7 +32,7 @@ No additional secret or permission scope is needed.
 | Contribution city | [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | Pinned official Action |
 | Snake | [snk](https://github.com/Platane/snk) | Pinned SVG-only Action |
 | Breakout, Pac-Man, Galaga | [Contribution Arcade](https://github.com/abozanona/pacman-contribution-graph) | Library 5.3.1; call renderer directly |
-| Activity graph | [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) | Pinned chart renderer, local calendar adapter |
+| Activity graph | [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) concept | Local native-SVG fallback over the validated calendar |
 | Streaks | [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | Pinned PHP renderer, rolling-year calendar adapter |
 | Typing tagline | [Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Download customized SVG |
 | Skill icons | [Skill Icons](https://github.com/LelouchFR/skill-icons) | Download chosen icons for both themes |
@@ -43,6 +43,10 @@ GitHub reports contribution years back to 1969 for this account. The streak
 card deliberately uses the rolling-year UTC calendar; the activity chart
 uses the last 31 days. Summary Cards retains its upstream all-time semantics.
 The working-hours chart is UTC+8. Cards can count public activity differently.
+
+Activity Graph's hosted service returned HTTP 402, and its local build has an
+incomplete upstream lockfile and a jsdom 9 dependency. The local SVG fallback
+keeps the contribution curve and drawing animation without that legacy stack.
 
 The Arcade library is called directly, without the upstream Action wrapper's
 leaderboard submission or analytics calls. No official demo data is published.
