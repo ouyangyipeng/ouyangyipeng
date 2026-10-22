@@ -75,7 +75,7 @@ A few graphs, pixel scenes, and contribution games — just for fun.
   <img src="./profile/activity-light.svg" alt="Contribution activity over the past 31 days, UTC" width="808">
 </picture>
 
-<sub>Streaks cover the past year in UTC; the activity graph covers 31 days. The summary card includes all-time history. Working hours use UTC+8.</sub>
+<sub>Streaks cover the past year in UTC; the activity graph covers 31 days. The summary card includes all-time history. Working hours use UTC+8. Totals can differ by generator and GitHub view.</sub>
 </details>
 
 <details open>
