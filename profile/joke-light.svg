@@ -2,7 +2,7 @@
   <svg xmlns="http://www.w3.org/2000/svg" width="500" height="180" viewBox="0 0 500 180">
   
     <foreignObject width="100%" height="100%">
-      <div xmlns="http://www.w3.org/1999/xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"> 
         <style>
           .qwidthDesktop{
             width: 500px;
@@ -25,8 +25,11 @@
             padding: 0.5rem;
             font-family: Arial, Helvetica, sans-serif;
           }
-          .quote {
+          .question {
             color: #ffca3a;
+          }
+          .answer {
+            color: #8ac926;
           }
           code {
             font-size: 1.2rem;
@@ -35,10 +38,10 @@
         </style>
         <div class="container">
           <div class="text" style="font-size:18px">
-            <p class="quote">I'm starting a band called 1023MB. I don't think we'll ever get a gig.</p>
+            <p class="question"><b>Q.</b> Why did the functional programmer get thrown out of school?</p>
+            <p class="answer"><b>A.</b> Because he refused to take classes </p>
           </div>
         </div>
       </div>
     </foreignObject>
   </svg>
-  
