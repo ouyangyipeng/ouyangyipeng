@@ -32,7 +32,8 @@ async function saveCalendar() {
   });
   const payload = await response.json();
   if (payload.errors?.length) throw new Error('GitHub calendar query failed');
-  const days = calendarDays(payload.data?.user);
+  const days = calendarDays(payload.data?.user).slice(-365);
+  if (days.length !== 365) throw new Error('Rolling-year calendar is incomplete');
   await mkdir('.build', { recursive: true });
   await writeFile('.build/calendar.json', JSON.stringify(days));
   console.log(`Validated ${days.length} calendar days: ${days[0].date}–${days.at(-1).date}`);
