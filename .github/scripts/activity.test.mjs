@@ -24,3 +24,13 @@ test('preserves the date range and total across a large activity spike', () => {
   assert.throws(() => renderActivity([], 'dark'));
   assert.throws(() => renderActivity([{ date: '2026-10-22', contributionCount: -1 }], 'dark'));
 });
+
+test('draws the full curve when daily spikes make its path longer than 5000px', () => {
+  const days = Array.from({ length: 31 }, (_, index) => ({
+    date: `2026-08-${String(index + 1).padStart(2, '0')}`,
+    contributionCount: index % 2 ? 100 : 0,
+  }));
+  const svg = renderActivity(days, 'dark');
+  assert.match(svg, /class="line" pathLength="1"/);
+  assert.match(svg, /stroke-dasharray:1;stroke-dashoffset:1;/);
+});
