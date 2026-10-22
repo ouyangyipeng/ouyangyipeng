@@ -1,8 +1,8 @@
-import { api } from '@stats-organization/github-readme-stats-core';
+import { api, loadConfigFromEnv } from '@stats-organization/github-readme-stats-core';
 import { writeImage } from './visual-utils.mjs';
 
 if (!process.env.GITHUB_TOKEN) throw new Error('GITHUB_TOKEN is required');
-process.env.PAT_1 = process.env.GITHUB_TOKEN;
+loadConfigFromEnv({ PAT_1: process.env.GITHUB_TOKEN });
 for (const mode of ['light', 'dark']) {
   const result = await api({
     username: 'ouyangyipeng', show_icons: 'true', hide_border: 'true',
