@@ -11,7 +11,7 @@ quotes, and jokes. Preserve the published biography and research facts.
 - Group the remaining visuals in open, collapsible sections below research.
 - Store every image in this repository; generate daily and on demand.
 - Use pinned official generators where available. Render the unavailable
-  Activity Graph from a GitHub calendar using its official chart renderer.
+  Activity Graph from a GitHub calendar with a small native-SVG fallback.
 - Render the official streak card from the rolling-year calendar, explicitly
   labelled UTC, to avoid backdated imported history dominating the display.
 - Use the built-in repository token for public data. Do not expand scopes or
@@ -42,3 +42,8 @@ Known input: GitHub reports contribution years back to 1969, although this
 account was created in 2023. The streak card will use the past-year window;
 all-time summary cards retain the upstream counting semantics and are
 labelled as such. Public statistics can differ from private activity totals.
+
+Integration decision: the official Activity Graph local build failed because
+its package-lock omits optional resolver packages; its rendering dependency
+also requires jsdom 9. A native SVG over the same last-31-day input replaces
+that renderer, retaining the requested chart and animation with no new deps.
