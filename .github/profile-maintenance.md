@@ -44,6 +44,15 @@ card deliberately uses the rolling-year UTC calendar; the activity chart
 uses the last 31 days. Summary Cards retains its upstream all-time semantics.
 The working-hours chart is UTC+8. Cards can count public activity differently.
 
+Pixel is generated with the existing Metrics read credential; Stats uses the
+repository integration token. Their available GitHub views can differ. One
+verified run showed Pixel 345 stars / 28 PRs / 9 issues versus Stats 343 / 25 /
+8; do not treat the two cards as identical counting scopes. Only aggregate
+figures are rendered. No private repository names or contents are published.
+The hosted CRT route was considered as a public-view alternative, but its
+verified HTTP-200 response was empty HTML rather than PNG. Keep the working
+pinned renderer and document its counting scope instead of using that route.
+
 Activity Graph's hosted service returned HTTP 402, and its local build has an
 incomplete upstream lockfile and a jsdom 9 dependency. The local SVG fallback
 keeps the contribution curve and drawing animation without that legacy stack.
