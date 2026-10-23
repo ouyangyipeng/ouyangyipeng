@@ -74,6 +74,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
 
+      - name: Generate Trophy cabinet from public mirrors
+        run: node .github/scripts/generate-trophies.mjs
+
       - name: Render activity from the validated calendar
         run: node .github/scripts/render-activity.mjs
 

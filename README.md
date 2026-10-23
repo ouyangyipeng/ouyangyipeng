@@ -49,6 +49,21 @@ I build languages, compilers, and runtimes for agentic systems. My work focuses 
 A few graphs, pixel scenes, and contribution games — just for fun.
 
 <details open>
+<summary><b>Trophy cabinet</b></summary>
+<br>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg">
+      <img src="./profile/trophy-light.svg" alt="GitHub Trophy — my achievement ranks and progress" width="640">
+    </picture>
+  </a>
+</p>
+
+</details>
+
+<details open>
 <summary><b>Stats, languages & working hours</b></summary>
 <br>
 
@@ -144,3 +159,9 @@ A few graphs, pixel scenes, and contribution games — just for fun.
 ---
 
 Outside coding: calligraphy, badminton, and geography. [Support my work](https://buymeacoffee.com/fernandezowen).
+
+<p align="center">
+  <a href="https://github.com/antonkomarev/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=ouyangyipeng&amp;label=PROFILE+VIEWS&amp;color=24292f&amp;style=for-the-badge" alt="Profile views" height="28">
+  </a>
+</p>
