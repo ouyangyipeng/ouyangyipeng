@@ -44,7 +44,8 @@ No additional secret or permission scope is needed.
 | Contact badges | [Shields](https://shields.io/badges/static-badge) | Static repository-hosted SVGs, refreshed manually |
 | Profile views | [Komarev](https://github.com/antonkomarev/github-profile-views-counter) | Live monochrome badge using the existing GitHub username |
 
-Trophy preserves the former rank filter (`-?,-C,-B`) in a three-column grid.
+Trophy preserves the former rank filter (`-?,-C,-B`) in one row of six,
+displayed at 600px wide in the README and scaled down on smaller screens.
 URLSearchParams encodes the question mark in that filter. The primary mirror
 is `trophy.ryglcloud.net`; the fallback is
 `github-profile-trophy-unserori.vercel.app`. Both are in the original project's

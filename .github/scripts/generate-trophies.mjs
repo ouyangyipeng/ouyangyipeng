@@ -16,7 +16,7 @@ export async function fetchTrophies(fetcher = fetch) {
       for (const [mode, theme] of themes) {
         const url = new URL(base);
         url.search = new URLSearchParams({
-          username: 'ouyangyipeng', theme, column: '3',
+          username: 'ouyangyipeng', theme, column: '6', row: '1',
           'margin-w': '15', 'margin-h': '15', 'no-frame': 'true',
           rank: '-?,-C,-B',
         });
