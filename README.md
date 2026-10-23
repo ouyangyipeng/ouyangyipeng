@@ -2,9 +2,16 @@
 
 <img src="./profile/typing.svg" alt="Agentic System / AI Infrastructure — languages, compilers, and runtimes — building Nexa" width="640">
 
-[Homepage](https://oyyp.nexa-lang.com/) · [Google Scholar](https://scholar.google.com/citations?user=eecO6kYAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0003-0544-4612) · [Email](mailto:ouyyp5@mail2.sysu.edu.cn)
+<p align="center">
+  <a href="https://oyyp.nexa-lang.com/"><img src="./badges/homepage.svg" alt="Homepage" height="28"></a>
+  <a href="https://scholar.google.com/citations?user=eecO6kYAAAAJ&amp;hl=en"><img src="./badges/scholar.svg" alt="Google Scholar" height="28"></a>
+  <a href="https://orcid.org/0009-0003-0544-4612"><img src="./badges/orcid.svg" alt="ORCID" height="28"></a>
+  <a href="mailto:ouyyp5@mail2.sysu.edu.cn"><img src="./badges/email.svg" alt="Email" height="28"></a>
+</p>
 
-<a href="https://github.com/LuciNyan/pixel-profile"><img src="./profile/pixel-crt.png" alt="My GitHub stats on a retro CRT monitor" width="640"></a>
+<p align="center">
+  <a href="https://github.com/LuciNyan/pixel-profile"><img src="./profile/pixel-crt.png" alt="My GitHub stats on a retro CRT monitor" width="640"></a>
+</p>
 
 I build languages, compilers, and runtimes for agentic systems. My work focuses on reliable agent execution, skill compilation, runtime evaluation, and efficient inference on real hardware.
 
@@ -94,40 +101,18 @@ A few graphs, pixel scenes, and contribution games — just for fun.
 </details>
 
 <details open>
-<summary><b>Arcade — Breakout, Pac-Man, Galaga & Snake</b></summary>
+<summary><b>Pac-Man</b></summary>
 <br>
-
-**Breakout**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/breakout-dark.svg">
-  <img src="./profile/breakout-light.svg" alt="Breakout animation using my contribution calendar" width="808">
-</picture>
-
-**Pac-Man**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile/pacman-dark.svg">
   <img src="./profile/pacman-light.svg" alt="Pac-Man animation using my contribution calendar" width="808">
 </picture>
 
-**Galaga**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/galaga-dark.svg">
-  <img src="./profile/galaga-light.svg" alt="Space-shooter animation using my contribution calendar" width="808">
-</picture>
-
-**Snake**
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/snake-dark.svg">
-  <img src="./profile/snake-light.svg" alt="Snake eating the squares of my contribution calendar" width="808">
-</picture>
 </details>
 
 <details open>
-<summary><b>A quote & a terrible programming joke</b></summary>
+<summary><b>A programming quote</b></summary>
 <br>
 
 <picture>
@@ -135,10 +120,6 @@ A few graphs, pixel scenes, and contribution games — just for fun.
   <img src="./profile/quote-light.svg" alt="A programming quote" width="600">
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/joke-dark.svg">
-  <img src="./profile/joke-light.svg" alt="A programming joke" width="500">
-</picture>
 </details>
 
 ---

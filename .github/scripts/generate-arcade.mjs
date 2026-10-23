@@ -19,6 +19,4 @@ async function generate(game, theme) {
   console.log(`Generated ${game}-${mode}.svg`);
 }
 
-for (const game of ['breakout', 'pacman', 'galaga']) {
-  for (const theme of ['github', 'github-dark']) await generate(game, theme);
-}
+for (const theme of ['github', 'github-dark']) await generate('pacman', theme);

@@ -69,15 +69,7 @@ jobs:
           cp profile-3d-contrib/profile-night-view.svg .build/visuals/city.svg
           cp profile-3d-contrib/profile-season-animate.svg .build/visuals/city-light.svg
 
-      - name: Generate contribution snake
-        uses: Platane/snk/svg-only@a041d6c27ba561a39f5be9c26a784812765e434b
-        with:
-          github_user_name: ouyangyipeng
-          github_token: ${{ github.token }}
-          outputs: |
-            .build/visuals/snake-light.svg?color_snake=#9b8afb
-            .build/visuals/snake-dark.svg?palette=github-dark&color_snake=#b9adf5
-      - name: Generate contribution arcade animations
+      - name: Generate Pac-Man contribution animations
         run: node .github/scripts/generate-arcade.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}

@@ -50,11 +50,10 @@ export async function writeImage(file, bytes) {
 }
 
 export function normalizeDecoration(svg, kind) {
-  if (kind !== 'quote' && kind !== 'joke') return svg;
-  const width = kind === 'quote' ? 600 : 500;
+  if (kind !== 'quote') return svg;
+  const width = 600;
   const cleaned = svg.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '')
     .replace(/\s+onload=(['"])[\s\S]*?\1/gi, '');
   return cleaned.replace(/<svg\b[^>]*>/i,
-    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="180" viewBox="0 0 ${width} 180">`)
-    .replace(/(<div class="text")/g, '$1 style="font-size:18px"');
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="180" viewBox="0 0 ${width} 180">`);
 }

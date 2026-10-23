@@ -48,7 +48,6 @@ async function saveDecorations() {
     }
     urls.push([`skills-${mode}.svg`, `https://go-skill-icons.vercel.app/api/icons?i=python,cpp,rust,cuda,linux,git&theme=${mode}&perline=6`, 'skills']);
     urls.push([`quote-${mode}.svg`, `https://quotes-github-readme.vercel.app/api?type=horizontal&theme=${theme}`, 'quote']);
-    urls.push([`joke-${mode}.svg`, `https://readme-jokes.vercel.app/api?theme=${mode === 'dark' ? 'tokyonight' : 'default'}`, 'joke']);
   }
   for (const [file, url, kind] of urls) {
     const response = await get(url);
