@@ -1,9 +1,20 @@
 # Profile playground implementation plan
 
-Goal: add every category from the approved widget gallery to the English
-GitHub Profile, including the CRT card, stats, summary cards, activity graph,
-streaks, skill icons, typing, pixel scenery, 3D city, snake, arcade games,
-quotes, and jokes. Preserve the published biography and research facts.
+Goal: maintain the approved English GitHub Profile playground, preserving
+the published biography and research facts while applying the user's latest
+selection and layout preferences.
+
+## 2026-10-23 refinement
+
+After viewing the complete gallery release, the user selected Pac-Man as the
+only contribution arcade animation and removed the programming joke. Keep
+the quote, stats, summary cards, activity graph, streaks, skill icons, typing,
+pixel scenery, 3D city, and existing calendar. Center the CRT card and replace
+the four contact text links with monochrome, repository-hosted Shields badges.
+Remove the retired renderers and images from daily generation. The current
+manifest contains 25 generated images; four static badges live in `badges/`.
+Verify the displayed links, CRT alignment, and desktop/mobile rendering before
+publishing this refinement through Rebase and merge.
 
 ## Design and scope
 
@@ -20,19 +31,19 @@ quotes, and jokes. Preserve the published biography and research facts.
 - Validate generated assets before publishing. A failed generation must not
   replace the last good images. Serialize visual workflows per branch.
 
-## Work
+## Initial release work
 
 - [x] Inspect and pin generator inputs, output paths, and data semantics.
 - [x] Add the generation workflow, small adapters, and meaningful data tests.
 - [x] Generate the complete image set on the feature branch and inspect it.
 - [x] Add the complete README layout and update maintenance documentation.
 - [x] Verify Markdown rendering, desktop/mobile image loading, and links.
-- [ ] Review, rebase onto current main, pass CI, and Rebase and merge.
-- [ ] Verify the public Profile and the first main refresh workflow.
+- [x] Review, rebase onto current main, pass CI, and Rebase and merge.
+- [x] Verify the public Profile and the first main refresh workflow.
 
 ## Acceptance and risk
 
-All twelve gallery categories must have working images sourced from the
+All currently selected categories must have working images sourced from the
 user's GitHub data or correctly labelled decorative content. Render aggregate
 figures only; publish no private repository names or contents. No official
 demo image may masquerade as the user's data. Third-party outages must be

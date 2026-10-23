@@ -3,6 +3,10 @@
 Keep the biography, affiliations, and research status in `README.md` aligned
 with https://oyyp.nexa-lang.com/. All image references are repository files.
 The public Profile does not request a third-party widget API while rendering.
+The four contact badges in `badges/` are static Shields SVGs. Refresh them
+manually with `node .github/scripts/update-badges.mjs` when labels or styles
+change; they are independent of daily statistics generation. Homepage and
+Email use simple globe/envelope icons; Scholar and ORCID use brand icons.
 
 ## Daily visual generation
 
@@ -30,14 +34,13 @@ No additional secret or permission scope is needed.
 | GitHub statistics | [Readme Stats core](https://github.com/stats-organization/github-readme-stats) | Version 2.2.0, locked in pnpm |
 | Summary, languages, working hours | [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | Download and validate hosted SVGs |
 | Contribution city | [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | Pinned official Action |
-| Snake | [snk](https://github.com/Platane/snk) | Pinned SVG-only Action |
-| Breakout, Pac-Man, Galaga | [Contribution Arcade](https://github.com/abozanona/pacman-contribution-graph) | Library 5.3.1; call renderer directly |
+| Pac-Man | [Contribution Arcade](https://github.com/abozanona/pacman-contribution-graph) | Library 5.3.1; call renderer directly |
 | Activity graph | [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) concept | Local native-SVG fallback over the validated calendar |
 | Streaks | [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | Pinned PHP renderer, rolling-year calendar adapter |
 | Typing tagline | [Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Download customized SVG |
 | Skill icons | [Skill Icons](https://github.com/LelouchFR/skill-icons) | Download chosen icons for both themes |
 | Quote | [Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) | Download and fix intrinsic image dimensions |
-| Joke | [Readme Jokes](https://github.com/ABSphreak/readme-jokes) | Download, remove image-incompatible resize script, set dimensions |
+| Contact badges | [Shields](https://shields.io/badges/static-badge) | Static repository-hosted SVGs, refreshed manually |
 
 GitHub reports contribution years back to 1969 for this account. The streak
 card deliberately uses the rolling-year UTC calendar; the activity chart

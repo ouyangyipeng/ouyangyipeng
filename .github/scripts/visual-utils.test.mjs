@@ -41,11 +41,10 @@ test('rejects HTTP-200 error cards, HTML responses and truncated PNGs', () => {
   validateImage(Buffer.from('<svg xmlns="http://www.w3.org/2000/svg"><path d="M0 0"/></svg>'), 'test.svg');
 });
 
-test('makes joke SVG usable in an img without executing its resize script', () => {
-  const source = '<svg onload="resize()"><script>resize()</script><foreignObject><div class="text">A joke</div></foreignObject></svg>';
-  const result = normalizeDecoration(source, 'joke');
-  assert.match(result, /viewBox="0 0 500 180"/);
-  assert.match(result, /font-size:18px/);
-  assert.match(result, /A joke/);
-  validateImage(Buffer.from(result), 'joke.svg');
+test('gives quote SVG fixed dimensions and removes embedded scripts', () => {
+  const source = '<svg onload="resize()"><script>resize()</script><text>A quote</text></svg>';
+  const result = normalizeDecoration(source, 'quote');
+  assert.match(result, /viewBox="0 0 600 180"/);
+  assert.match(result, /A quote/);
+  validateImage(Buffer.from(result), 'quote.svg');
 });
