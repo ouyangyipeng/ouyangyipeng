@@ -3,7 +3,7 @@ import { validateImage } from './visual-utils.mjs';
 
 const themed = ['stats', 'summary', 'languages', 'commit-languages', 'hours',
   'streak', 'activity', 'skills', 'quote', 'pacman', 'trophy'];
-const files = ['typing.svg', 'pixel-crt.png', 'pixel-fuji.png', 'city.svg', 'city-light.svg',
+const files = ['typing.svg', 'pixel-fuji.png', 'city.svg', 'city-light.svg',
   ...themed.flatMap(name => ['light', 'dark'].map(mode => `${name}-${mode}.svg`))];
 
 for (const file of files) {

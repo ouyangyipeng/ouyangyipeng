@@ -30,7 +30,7 @@ No additional secret or permission scope is needed.
 
 | Visual | Source | Generation |
 | --- | --- | --- |
-| CRT and Fuji cards | [Pixel Profile](https://github.com/LuciNyan/pixel-profile) | Pinned official renderer on Node 24 |
+| Fuji pixel card | [Pixel Profile](https://github.com/LuciNyan/pixel-profile) | Pinned official renderer on Node 24 |
 | Trophy cabinet | [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy#load-balancing-endpoints) | Officially listed public mirrors; validated flat/onedark SVGs |
 | GitHub statistics | [Readme Stats core](https://github.com/stats-organization/github-readme-stats) | Version 2.2.0, locked in pnpm |
 | Summary, languages, working hours | [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | Download and validate hosted SVGs |
@@ -76,9 +76,6 @@ repository integration token. Their available GitHub views can differ. One
 verified run showed Pixel 345 stars / 28 PRs / 9 issues versus Stats 343 / 25 /
 8; do not treat the two cards as identical counting scopes. Only aggregate
 figures are rendered. No private repository names or contents are published.
-The hosted CRT route was considered as a public-view alternative, but its
-verified HTTP-200 response was empty HTML rather than PNG. Keep the working
-pinned renderer and document its counting scope instead of using that route.
 
 Activity Graph's hosted service returned HTTP 402, and its local build has an
 incomplete upstream lockfile and a jsdom 9 dependency. The local SVG fallback

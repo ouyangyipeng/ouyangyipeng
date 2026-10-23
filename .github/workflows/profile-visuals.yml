@@ -52,12 +52,11 @@ jobs:
           ref: 7a7937a63421dd6eba82aaae31f73e85df8d9f94
           path: .generators/pixel
           persist-credentials: false
-      - name: Generate CRT and Fuji pixel cards
+      - name: Generate Fuji pixel card
         run: node .generators/pixel/action/libs/index.js
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           INPUT_OUTPUTS: .build/visuals/pixel-fuji?username=ouyangyipeng&theme=fuji&pixelate_avatar=false
-          INPUT_CRT_OUTPUTS: .build/visuals/pixel-crt?username=ouyangyipeng&include_all_commits=false
 
       - name: Generate contribution cities
         uses: yoshi389111/github-profile-3d-contrib@e235d118909be71eb7edb05482a3de4e76156df3
