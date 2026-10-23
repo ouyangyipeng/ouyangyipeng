@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>The fundamental problem with program maintenance is that fixing a defect has a substantial (20-50 percent) chance of introducing another. So the whole process is two steps forward and one step back.</h3>
-          <p>- Fred Brooks</p>
+          <h3>Dealing with failure is easy: Work hard to improve.</h3>
+          <p>- Alan Perlis</p>
         </div>
       </div>
     </foreignObject>
