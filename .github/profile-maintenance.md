@@ -1,8 +1,8 @@
 # Profile maintenance
 
 Keep the biography, affiliations, and research status in `README.md` aligned
-with https://oyyp.nexa-lang.com/. All image references are repository files.
-The public Profile does not request a third-party widget API while rendering.
+with https://oyyp.nexa-lang.com/. Generated cards are repository files.
+The live Profile views badge is served by Komarev so visits can be counted.
 The four contact badges in `badges/` are static Shields SVGs. Refresh them
 manually with `node .github/scripts/update-badges.mjs` when labels or styles
 change; they are independent of daily statistics generation. Homepage and
@@ -31,6 +31,7 @@ No additional secret or permission scope is needed.
 | Visual | Source | Generation |
 | --- | --- | --- |
 | CRT and Fuji cards | [Pixel Profile](https://github.com/LuciNyan/pixel-profile) | Pinned official renderer on Node 24 |
+| Trophy cabinet | [GitHub Profile Trophy](https://github.com/ryo-ma/github-profile-trophy#load-balancing-endpoints) | Officially listed public mirrors; validated flat/onedark SVGs |
 | GitHub statistics | [Readme Stats core](https://github.com/stats-organization/github-readme-stats) | Version 2.2.0, locked in pnpm |
 | Summary, languages, working hours | [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | Download and validate hosted SVGs |
 | Contribution city | [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | Pinned official Action |
@@ -41,6 +42,29 @@ No additional secret or permission scope is needed.
 | Skill icons | [Skill Icons](https://github.com/LelouchFR/skill-icons) | Download chosen icons for both themes |
 | Quote | [Readme Quotes](https://github.com/PiyushSuthar/github-readme-quotes) | Download and fix intrinsic image dimensions |
 | Contact badges | [Shields](https://shields.io/badges/static-badge) | Static repository-hosted SVGs, refreshed manually |
+| Profile views | [Komarev](https://github.com/antonkomarev/github-profile-views-counter) | Live monochrome badge using the existing GitHub username |
+
+Trophy preserves the former rank filter (`-?,-C,-B`) in a three-column grid.
+URLSearchParams encodes the question mark in that filter. The primary mirror
+is `trophy.ryglcloud.net`; the fallback is
+`github-profile-trophy-unserori.vercel.app`. Both are in the original project's
+recommended endpoint list. Both themes must pass validation from one mirror
+before staging; a failure leaves the previous published pair intact.
+Requests send only the public username and appearance options, with no
+authentication headers or cookies. Mirror requests never use a GitHub token.
+
+The retired Trophy workflow failed with `Resource not accessible by
+integration` on its cross-repository query. It is replaced by the public
+mirror generator. Trophy renders public aggregate ranks and counts using
+the service's counting rules; contribution-based ranks cover the past year.
+
+The former `profile-counter.glitch.me` endpoint returns HTTP 410 following
+Glitch's hosting shutdown. Its historical count has no verified migration
+source. The Komarev badge uses its own counter for `ouyangyipeng`, with no
+invented `base` offset. It records image requests through GitHub's proxy,
+so repeat views and caching affect the count. Keep this badge live rather
+than copying it into the daily image set. If a verified old total is later
+recovered, Komarev documents a `base` parameter for migration.
 
 GitHub reports contribution years back to 1969 for this account. The streak
 card deliberately uses the rolling-year UTC calendar; the activity chart
