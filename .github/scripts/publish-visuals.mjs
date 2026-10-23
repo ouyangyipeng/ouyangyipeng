@@ -2,7 +2,7 @@ import { copyFile, mkdir, readFile } from 'node:fs/promises';
 import { validateImage } from './visual-utils.mjs';
 
 const themed = ['stats', 'summary', 'languages', 'commit-languages', 'hours',
-  'streak', 'activity', 'skills', 'quote', 'pacman', 'trophy'];
+  'streak', 'activity', 'skills', 'quote', 'pacman', 'trophy-strip'];
 const files = ['typing.svg', 'pixel-fuji.png', 'city.svg', 'city-light.svg',
   ...themed.flatMap(name => ['light', 'dark'].map(mode => `${name}-${mode}.svg`))];
 

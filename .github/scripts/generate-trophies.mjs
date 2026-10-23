@@ -26,7 +26,7 @@ export async function fetchTrophies(fetcher = fetch) {
         });
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const svg = await response.text();
-        const file = `trophy-${mode}.svg`;
+        const file = `trophy-strip-${mode}.svg`;
         validateImage(Buffer.from(svg), file);
         if (!/<text\b[^>]*>Commits<\/text>/.test(svg) ||
             !/<text\b[^>]*>Followers<\/text>/.test(svg)) {

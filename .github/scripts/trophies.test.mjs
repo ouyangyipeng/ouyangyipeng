@@ -10,7 +10,7 @@ test('requests both Trophy themes with encoded filters and no credentials', asyn
     requests.push({ url, options });
     return new Response(awardSvg);
   });
-  assert.deepEqual(images.map(image => image.file), ['trophy-light.svg', 'trophy-dark.svg']);
+  assert.deepEqual(images.map(image => image.file), ['trophy-strip-light.svg', 'trophy-strip-dark.svg']);
   assert.deepEqual(requests.map(({ url }) => url.searchParams.get('theme')), ['flat', 'onedark']);
   for (const { url, options } of requests) {
     assert.equal(url.searchParams.get('username'), 'ouyangyipeng');
