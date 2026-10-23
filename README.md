@@ -10,7 +10,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LuciNyan/pixel-profile"><img src="./profile/pixel-crt.png" alt="My GitHub stats on a retro CRT monitor" width="640"></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg">
+      <img src="./profile/trophy-light.svg" alt="GitHub Trophy — my achievement ranks and progress" width="640">
+    </picture>
+  </a>
 </p>
 
 I build languages, compilers, and runtimes for agentic systems. My work focuses on reliable agent execution, skill compilation, runtime evaluation, and efficient inference on real hardware.
@@ -48,24 +53,7 @@ I build languages, compilers, and runtimes for agentic systems. My work focuses 
 
 A few graphs, pixel scenes, and contribution games — just for fun.
 
-<details open>
-<summary><b>Trophy cabinet</b></summary>
-<br>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg">
-      <img src="./profile/trophy-light.svg" alt="GitHub Trophy — my achievement ranks and progress" width="640">
-    </picture>
-  </a>
-</p>
-
-</details>
-
-<details open>
-<summary><b>Stats, languages & working hours</b></summary>
-<br>
+### Stats, languages & working hours
 
 <p align="center">
   <picture>
@@ -108,11 +96,8 @@ A few graphs, pixel scenes, and contribution games — just for fun.
 </p>
 
 <sub>Streaks cover the past year in UTC; the activity graph covers 31 days. The summary card includes all-time history. Working hours use UTC+8. Totals can differ by generator and GitHub view.</sub>
-</details>
 
-<details open>
-<summary><b>Contribution city & pixel scenes</b></summary>
-<br>
+### Contribution city & pixel scenes
 
 <p align="center">
   <picture>
@@ -128,11 +113,8 @@ A few graphs, pixel scenes, and contribution games — just for fun.
 <p align="center">
   <img src="./metrics.isocalendar.svg" alt="Isometric contribution calendar for the past six months" width="600">
 </p>
-</details>
 
-<details open>
-<summary><b>Pac-Man</b></summary>
-<br>
+### Pac-Man
 
 <p align="center">
   <picture>
@@ -141,11 +123,7 @@ A few graphs, pixel scenes, and contribution games — just for fun.
   </picture>
 </p>
 
-</details>
-
-<details open>
-<summary><b>A programming quote</b></summary>
-<br>
+### A programming quote
 
 <p align="center">
   <picture>
@@ -153,8 +131,6 @@ A few graphs, pixel scenes, and contribution games — just for fun.
     <img src="./profile/quote-light.svg" alt="A programming quote" width="600">
   </picture>
 </p>
-
-</details>
 
 ---
 
