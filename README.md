@@ -12,8 +12,8 @@
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-dark.svg">
-      <img src="./profile/trophy-light.svg" alt="GitHub Trophy — my achievement ranks and progress" width="600">
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/trophy-strip-dark.svg">
+      <img src="./profile/trophy-strip-light.svg" alt="GitHub Trophy — my achievement ranks and progress" width="600">
     </picture>
   </a>
 </p>

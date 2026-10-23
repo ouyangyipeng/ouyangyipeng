@@ -46,6 +46,7 @@ No additional secret or permission scope is needed.
 
 Trophy preserves the former rank filter (`-?,-C,-B`) in one row of six,
 displayed at 600px wide in the README and scaled down on smaller screens.
+Its `trophy-strip-*.svg` filenames avoid the previous grid's image cache.
 URLSearchParams encodes the question mark in that filter. The primary mirror
 is `trophy.ryglcloud.net`; the fallback is
 `github-profile-trophy-unserori.vercel.app`. Both are in the original project's
