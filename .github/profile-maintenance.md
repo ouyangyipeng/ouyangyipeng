@@ -34,7 +34,7 @@ No additional secret or permission scope is needed.
 | GitHub statistics | [Readme Stats core](https://github.com/stats-organization/github-readme-stats) | Version 2.2.0, locked in pnpm |
 | Summary, languages, working hours | [Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards) | Download and validate hosted SVGs |
 | Contribution city | [3D Contrib](https://github.com/yoshi389111/github-profile-3d-contrib) | Pinned official Action |
-| Pac-Man | [Contribution Arcade](https://github.com/abozanona/pacman-contribution-graph) | Library 5.3.1; call renderer directly |
+| Pac-Man | [Contribution Arcade](https://github.com/abozanona/pacman-contribution-graph/tree/7332e1de7903ab780c3692a4127a59cc13872daa) | Official v5.3.2 tag pinned by commit; call renderer directly |
 | Activity graph | [Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph) concept | Local native-SVG fallback over the validated calendar |
 | Streaks | [Streak Stats](https://github.com/DenverCoder1/github-readme-streak-stats) | Pinned PHP renderer, rolling-year calendar adapter |
 | Typing tagline | [Typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | Download customized SVG |
@@ -62,6 +62,12 @@ keeps the contribution curve and drawing animation without that legacy stack.
 
 The Arcade library is called directly, without the upstream Action wrapper's
 leaderboard submission or analytics calls. No official demo data is published.
+The v5.3.1 renderer could finish its 3000-frame loop without exporting SVG or
+calling its completion callback. The pinned v5.3.2 tag fixes this, and its
+checked-in build is used with install scripts disabled. That version was not
+available from npm during verification. A deterministic scenario regression
+checks completion and SVG output. Await the renderer's own Promise so missing
+output produces an explicit error instead of an unsettled top-level await.
 
 ## Verification
 
