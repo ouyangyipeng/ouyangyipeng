@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>When debugging, novices insert corrective code; experts remove defective code.</h3>
-          <p>- Richard E. Pattis</p>
+          <h3>Nobody knows how to build really complicated hardware systems, so designing hardware tends to be simpler. Software is much more complicated.</h3>
+          <p>- Butler Lampson</p>
         </div>
       </div>
     </foreignObject>
