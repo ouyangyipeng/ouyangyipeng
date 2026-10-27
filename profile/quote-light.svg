@@ -66,8 +66,8 @@
     
         </style>
         <div class="container">
-          <h3>Nobody knows how to build really complicated hardware systems, so designing hardware tends to be simpler. Software is much more complicated.</h3>
-          <p>- Butler Lampson</p>
+          <h3>Maintenance cost is strongly affected by the number of users. More users find more bugs.</h3>
+          <p>- Fred Brooks</p>
         </div>
       </div>
     </foreignObject>
