@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yipeng Ouyang&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 346, Total Commits  (last year) : 1624, Total PRs: 47, Total Issues: 8, Contributed to (last year): 14</desc>
+        <desc id="descId">Total Stars Earned: 347, Total Commits  (last year) : 1624, Total PRs: 47, Total Issues: 8, Contributed to (last year): 14</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 85.0632075569687;
+        stroke-dashoffset: 85.03656334275612;
       }
     }
   
@@ -169,7 +169,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >346</text>
+      >347</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
